@@ -1,0 +1,16 @@
+/* navigation bar */
+#nav-main {
+    display: flex;
+    justify-content: space-between;
+}
+
+#nav-right {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#nav-mid {
+    display: flex;
+    justify-content: center;
+}
+
