@@ -1,7 +1,17 @@
-/* navigation bar */
+/* ------------------------------------------ root ---------------------------------------- */
+:root {
+    --yellow-dark: rgba(250,150,50,1);
+    --yellow-faint: rgba(250,200,80,1);
+    --purple:rgb(59,59,79);
+
+    --bg: linear-gradient(0deg, var(--yellow-dark) 0%, var(--yellow-faint) 100%);
+}
+
+/* ------------------------------------------ navigation bar ----------------------------*/
 #nav-main {
     display: flex;
     justify-content: space-between;
+    align-items: center;
 }
 
 #nav-right {
@@ -12,5 +22,40 @@
 #nav-mid {
     display: flex;
     justify-content: center;
+    align-items: center;
 }
 
+.input-container {
+    background-color: rgb(59,59,79);
+    height: auto;
+    align-items: center;
+}
+
+#input{
+    background: none;
+    border: transparent;
+    height: 20px;
+    display: flex;
+}
+
+input::placeholder {
+    font-size: 1em;
+    color: aqua;
+}
+
+.sign-in {
+    background: var(--bg);
+    border: var(--yellow-dark);
+}
+
+#magnifier {
+    height: 2em;
+    width: 2em;
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    padding: 8px;
+    fill: white;
+}
+
+/* ------------------------------------  ----------------------------------------- */
