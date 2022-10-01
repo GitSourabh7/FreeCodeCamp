@@ -12,6 +12,8 @@
     display: flex;
     justify-content: space-between;
     align-items: center;
+    position:fixed;
+    width:100%;
 }
 
 #nav-right {
@@ -46,6 +48,8 @@ input::placeholder {
 .sign-in {
     background: var(--bg);
     border: var(--yellow-dark);
+    text-decoration-color: black;
+    border-radius: 0px !important;
 }
 
 #magnifier {
@@ -58,4 +62,29 @@ input::placeholder {
     fill: white;
 }
 
-/* ------------------------------------  ----------------------------------------- */
+/* ------------------------------------ Spacer -------------------------------------------- */
+.spacer {
+    height:30px !important;
+}
+
+
+/* ------------------------------------ Landing Top --------------------------------------- */
+.logo-row {
+    display: flex;
+    justify-content: space-between;
+    height: 45px;
+    margin: 10px 0px 10px 0px;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+  
+}
+
+.child-container {
+    display: block;
+    width: 750px;
+    padding-top: 140px;
+    padding-bottom: 140px;
+}

@@ -33,10 +33,7 @@ const NavBar = () => {
         >
           Menu
         </button>
-        <button
-          class="sign-in btn btn-sm btn-outline-secondary text-dark mx-3 fs-5 rounded-0 w-25"
-          type="button"
-        >
+        <button class="sign-in btn btn-sm mx-3 fs-5 w-25" type="button">
           Sign In
         </button>
       </div>
