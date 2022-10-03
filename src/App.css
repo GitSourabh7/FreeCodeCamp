@@ -48,14 +48,6 @@ input::placeholder {
     color: aqua;
 }
 
-.sign-in {
-    background: var(--bg);
-    border-color: var(--yellow-dark);
-    border-radius: 0px !important;
-    border-width: 3px;
-    border-style: solid;
-    text-decoration-color: black;
-}
 
 #magnifier {
     height: 2em;
@@ -67,7 +59,23 @@ input::placeholder {
     fill: white;
 }
 
+/* --------------------------------- Sign In Button ------------------------------- */
+
+.sign-in {
+    background: var(--bg);
+    border-color: var(--yellow-dark) !important;
+    border-radius: 0px !important;
+    border-width: 3px !important;
+    border-style: solid !important;
+    text-decoration-color: black !important;
+}
+
+.sign-in:hover {
+    background: var(--yellow-light) !important;
+}
+
 /* ------------------------------------ Spacer -------------------------------------------- */
+
 .spacer {
     height:30px !important;
 }

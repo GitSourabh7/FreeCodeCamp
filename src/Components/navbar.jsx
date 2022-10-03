@@ -28,12 +28,12 @@ const NavBar = () => {
       </div>
       <div className="flex-fill" id="nav-right">
         <button
-          class="btn btn-sm text-white border-white px-3 rounded-0 fs-5"
+          className="btn btn-sm text-white border-white px-3 rounded-0 fs-5"
           type="button "
         >
           Menu
         </button>
-        <button class="sign-in btn btn-sm mx-3 fs-5 w-25" type="button">
+        <button className="sign-in btn-sm mx-3 fs-5 w-25" type="button">
           Sign In
         </button>
       </div>
