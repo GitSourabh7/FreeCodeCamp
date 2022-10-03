@@ -1,16 +1,17 @@
 import React from "react";
+import Spacer from "./Common/spacer";
+import ButtonSignIn from "./Common/buttonSignIn";
 import "../App.css";
 import { ReactComponent as Apple } from "../Icons/Apple-logo.svg";
 import { ReactComponent as Google } from "../Icons/Google-logo.svg";
 import { ReactComponent as Microsoft } from "../Icons/Microsoft-logo.svg";
 import { ReactComponent as Spotify } from "../Icons/Spotify-logo.svg";
 import { ReactComponent as Amazon } from "../Icons/Amazon-logo.svg";
-import Spacer from "./Common/spacer";
-import ButtonSignIn from "./Common/buttonSignIn";
 
 const LandingTop = () => {
   return (
     <div className="container">
+      <Spacer />
       <div className="child-container">
         <h1 className="fw-bold mb-5">Learn to code - for free</h1>
         <p className="fs-1 fw-bold mb-5">Build Projects.</p>
@@ -33,8 +34,10 @@ const LandingTop = () => {
         <div>
           <img
             src="https://www.freecodecamp.org/static/wide-image-3cb329e8b3cae865be76746fbd069cd2.png"
-            className="mx-auto d-block"
+            className="d-block"
             alt="south korean team"
+            width="750px"
+            height="443px"
           />
           <p className="text-center my-3 fs-4 fw-bold">
             freeCodeCamp students at a local study group in South Korea.

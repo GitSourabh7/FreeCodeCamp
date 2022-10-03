@@ -1,10 +1,13 @@
 /* ------------------------------------------ root ---------------------------------------- */
 :root {
     --yellow-dark: rgba(250,150,50,1);
-    --yellow-faint: rgba(250,200,80,1);
+    --yellow-light: rgba(250,200,80,1);
     --purple:rgb(59,59,79);
+    --purple-dark:rgb(60,62,86);
+    --primary-color:rgb(208,208,213);
+    --secondary-color:rgb(10,10,35);
 
-    --bg: linear-gradient(0deg, var(--yellow-dark) 0%, var(--yellow-faint) 100%);
+    --bg: linear-gradient(0deg, var(--yellow-dark) 0%, var(--yellow-light) 100%);
 }
 
 /* ------------------------------------------ navigation bar ----------------------------*/
@@ -47,9 +50,11 @@ input::placeholder {
 
 .sign-in {
     background: var(--bg);
-    border: var(--yellow-dark);
-    text-decoration-color: black;
+    border-color: var(--yellow-dark);
     border-radius: 0px !important;
+    border-width: 3px;
+    border-style: solid;
+    text-decoration-color: black;
 }
 
 #magnifier {
@@ -85,6 +90,93 @@ input::placeholder {
 .child-container {
     display: block;
     width: 750px;
-    padding-top: 140px;
-    padding-bottom: 140px;
+    padding-top: 120px;
+    padding-bottom: 60px;
+}
+
+/* ------------------------------- As Seen In -------------------------------- */
+.as-seen-in{
+    height: 280px;
+    background-color: var(--purple-dark);
+    display:flex;
+    justify-content:center;
+    align-items:center;
+    font-weight:650;
+}
+
+.as-seen-in .container{
+    display:inline-block;
+    justify-items: center;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+}
+
+.as-seen-in p {
+    font-size:40px;
+    text-align:center;
+    font-weight:650;
+    color:var(--primary-color);
+    margin-bottom: 40px;
+}
+
+.as-seen-in svg {
+    display:block;
+    width:1256px;
+    height:76px;
+    fill: var(--primary-color);
+}
+
+/* ------------------------------- Certification -------------------------------- */
+.wrapper{
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.list-container{
+    margin-left: 170px;
+    margin-right: 170px;
+    padding: 10px 10px 10px 10px;
+}
+
+.list-container h1{
+    margin-bottom: 40px;
+}
+
+/* -------------------------------------- List -------------------------------------------- */
+.list-button {
+    padding: 10px 16px 10px 16px;
+    border:3px black solid;
+    background-color: var(--primary-color);
+    color: var(--secondary-color);
+    font-size: 20px;
+    border-width: 3px;
+    height: 80px;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.list-button:hover{
+    background-color: var(--secondary-color);
+    color: var(--primary-color);
+}
+
+.list-button p{
+    margin-bottom: 0px;
+    padding-left: 5px;
+    padding-right: 5px;
+    width: auto;
+    align-self: center;
+}
+
+.button-icon{
+    width: 50px;
+    margin-right: 20px;
+    fill:rgb(87, 85, 85);
+}
+
+.arrow-box{
+    fill:rgb(87, 85, 85);
+    margin: 10px 10px 10px 10px;
 }

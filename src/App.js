@@ -1,13 +1,19 @@
 import React, { Component } from "react";
-import NavBar from "./Components/navbar";
-import LandingTop from "./Components/landing-top";
+import NavBar from "./Components/navBar";
+import LandingTop from "./Components/landingTop";
+import AsSeenIn from "./Components/asSeenIn";
+import Certification from "./Components/certification";
+import "./App.css";
+
 class App extends Component {
   state = {};
   render() {
     return (
       <React.Fragment>
         <NavBar />
-        <LandingTop />;
+        <LandingTop />
+        <AsSeenIn />
+        <Certification />
       </React.Fragment>
     );
   }
