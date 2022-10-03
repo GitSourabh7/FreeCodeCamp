@@ -16,7 +16,12 @@
     justify-content: space-between;
     align-items: center;
     position:fixed;
+    height: 45px;
     width:100%;
+}
+
+#nav-left .input-container{
+    width: 90% !important;
 }
 
 #nav-right {
